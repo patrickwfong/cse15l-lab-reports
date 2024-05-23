@@ -1,11 +1,11 @@
 ## Lab Report 4
-Patrick Fong, A14080869\\
+Patrick Fong, A14080869\
 
 Step 4:\
 Screenshot:\
 Key presses: opened terminal, typed ``ssh pwfong@ieng6.ucsd.edu``, pressed ``<enter>``. Typed ``cs15lsp24`` and ``<enter>`` when prompted.\
 Summary of commands:\
-Logged into ieng6\\
+Logged into ieng6\
 
 Step 5:\
 Screenshot:\
