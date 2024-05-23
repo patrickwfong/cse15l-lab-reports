@@ -53,7 +53,8 @@ Caused by: java.lang.AssertionError: expected:<2> but was:<1>
 FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
-4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown).
+
+4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown).\
 Before
 ```
 static int[] reversed(int[] arr) {
