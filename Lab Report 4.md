@@ -2,7 +2,7 @@
 Patrick Fong, A14080869\
 
 Step 4:\
-Screenshot:\
+Screenshot: ![Image](ss2.png)\
 Key presses: opened terminal, typed ``ssh pwfong@ieng6.ucsd.edu``, pressed ``<enter>``. Typed ``cs15lsp24`` and ``<enter>`` when prompted.\
 Summary of commands:\
 Logged into ieng6\
