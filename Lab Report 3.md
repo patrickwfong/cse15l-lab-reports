@@ -25,6 +25,7 @@ Patrick Fong - A14080869
 ```
   
 3. The symptom, as the output of running the two tests above (provide it as a screenshot -- one test should pass, one test should fail).
+
 ```
 user@users-Air-2 lab3 % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 JUnit version 4.13.2
