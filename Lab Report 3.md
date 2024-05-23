@@ -13,9 +13,7 @@ Patrick Fong - A14080869
 
 
 2. An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown):
-
-   ```
-
+```
     public void testReversed() {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
@@ -24,10 +22,10 @@ Patrick Fong - A14080869
     ArrayExamples.reversed(input2);
     assertArrayEquals(new int[]{ 6, 2, 3, 9, 5 }, ArrayExamples.reversed(input2));
    }
-   ```
+```
   
 3. The symptom, as the output of running the two tests above (provide it as a screenshot -- one test should pass, one test should fail).
- ```
+```
 user@users-Air-2 lab3 % java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 JUnit version 4.13.2
 ..E
