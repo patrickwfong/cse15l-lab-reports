@@ -1,12 +1,12 @@
 ## Lab Report 5
-Patrick Fong, A14080869\
+Patrick Fong, A14080869
 
 # Part 1: Debugging Scenario
 **Original student post with a screenshot showing a symptom and a guess as to what the bug might be:**\
 \
 &emsp; I'm trying to write a Java program that reads a list of numbers from a text file, then calculates and outputs the mean of the numbers.\
 &emsp; The Java file is called ```MeanCalc.java```. The text file to be read is in a different directory called ```data```.\
-&emsp; However, the program only outputs “Average: 0.0” regardless of what is written in the text file that provides the input.\
+&emsp; However, the program only outputs ```“Average: 0.0”``` regardless of what is written in the text file that provides the input.\
 \
 &emsp; Here is a screenshot of the directory structure:\
 &emsp; ![Image](lab5ss1.png)\
@@ -141,10 +141,10 @@ java MeanCalc
 **-a description of what to edit to fix the bug:**\
 &emsp; The program is reading input from the numbers.txt file in the src directory. The fix is to read input from the correct file.\
 &emsp; So, to fix the bug, I should change line 12 from:\
-&emsp; &emsp; &emsp; &emsp; &emsp; ```reader = new BufferedReader(new FileReader("numbers.txt"));```\
+&emsp; ```reader = new BufferedReader(new FileReader("numbers.txt"));```\
 &emsp; to:\
-&emsp; &emsp; &emsp; &emsp; &emsp; ```reader = new BufferedReader(new FileReader("../data/numbers.txt"));```\
-&emsp; All good now!\
+&emsp; ```reader = new BufferedReader(new FileReader("../data/numbers.txt"));```\
+&emsp; All good now!:\
 &emsp; ![Image](lab5ss7.png)
 
 
