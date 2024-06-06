@@ -145,9 +145,9 @@ java MeanCalc
 &emsp; to:\
 &emsp; &emsp; &emsp; &emsp; &emsp; ```reader = new BufferedReader(new FileReader("../data/numbers.txt"));```\
 &emsp; All good now!\
-&emsp; ![Image](lab5ss7.png)\
-\
-\
+&emsp; ![Image](lab5ss7.png)
+
+
 # Part 2: Reflection
 \
 Before this quarter, I had barely used the terminal before and I had no experience with bash. I also hadn’t ever used jdb to debug; being able to pause Java processes and run them line by line is a game changer for debugging.\
