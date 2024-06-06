@@ -4,7 +4,7 @@ Patrick Fong, A14080869
 # Part 1: Debugging Scenario
 **Original student post with a screenshot showing a symptom and a guess as to what the bug might be:**\
 \
-&emsp; I'm trying to write a Java program that reads a list of numbers from a text file, then calculates and\ 
+&emsp; I'm trying to write a Java program that reads a list of numbers from a text file, then calculates and\
 &emsp; outputs the mean of the numbers.\
 &emsp; The Java file is called ```MeanCalc.java```. The text file to be read is in a different directory called\
 &emsp; ```data```. However, the program only outputs ```“Average: 0.0”``` regardless of\
